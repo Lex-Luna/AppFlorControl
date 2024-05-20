@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFlorControl.Views.Menuprincipal">
+    <Grid RowDefinitions="300,130,40,*"
+          BackgroundColor="#E9EDF3">
+
+        
+            <Frame Margin="15,30,15,30"
+                   CornerRadius="15"
+                   HasShadow="False">
+                <Frame.Background>
+                    <LinearGradientBrush EndPoint="1,0">
+                        <GradientStop Color="red" Offset="0.1"/>
+                        <GradientStop Color="#D6F4E7" Offset="1.0"/>
+                    </LinearGradientBrush>
+                </Frame.Background>
+                <StackLayout >
+                    <Label Text="Administrador"
+                           FontSize="25"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                    <Grid ColumnDefinitions="*,*">
+                        <StackLayout VerticalOptions="Center">
+                            <Image Source="https://i.ibb.co/4Pn6c2W/patron.png"
+                                   HeightRequest="30"
+                                   HorizontalOptions="Start"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Eco"
+                                       CharacterSpacing="10"
+                                       FontSize="18"
+                                       FontAttributes="Bold"
+                                       VerticalOptions="Center"/>
+                                <Button Text="Control de Flores
+                                        "
+                                        BackgroundColor="#D0F2D8"
+                                        CornerRadius="15"
+                                        FontAttributes="Bold"
+                                        TextColor="red"
+                                        FontSize="20"/>
+
+                            </StackLayout>
+
+                        </StackLayout>
+                        <Image Grid.Column="1"
+                               Source="https://i.ibb.co/3B8LW6z/luz.png"/>
+                    </Grid>
+                </StackLayout>
+
+            </Frame>
+        
+        <Frame Grid.Row="1"
+               CornerRadius="20"
+               HasShadow="False"
+               Margin="15,15,15,0"
+               Padding="10"
+               >
+            <Grid ColumnDefinitions="*,*"
+                  VerticalOptions="Center">
+                <StackLayout >
+                    <Frame HasShadow="False"
+                           Padding="0"
+                           BackgroundColor="White"
+                           CornerRadius="50"
+                           HorizontalOptions="Center">
+                        <Image Source="https://i.ibb.co/LYW4wHb/carisma.png" 
+                               HeightRequest="35"
+                               Margin="10"
+                                    x:Name="btnconfig"
+                                    />
+                    </Frame>
+                    <Label Text="CONFIGURAR"
+                           HorizontalOptions="Center"
+                           TextColor="Black"
+                           FontSize="12"
+                           FontAttributes="Bold"
+                           CharacterSpacing="2"
+                           />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding Navegarmenuconfigcomamd}"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                <StackLayout Grid.Column="1">
+                    <Frame HasShadow="False"
+                           Padding="0"
+                           BackgroundColor="#EBFAF9"
+                           CornerRadius="50"
+                           HorizontalOptions="Center">
+                        <Image Source="https://i.ibb.co/1LRYYLy/punto-de-encuentro.png"
+                               HeightRequest="35"
+                               Margin="10"/>
+                    </Frame>
+                    <Label Text="ASIGNACIONES"
+                           HorizontalOptions="Center"
+                           TextColor="Black"
+                           FontSize="12"
+                           FontAttributes="Bold"
+                           CharacterSpacing="2"/>
+                </StackLayout>
+            </Grid>
+        </Frame>
+        <Label Grid.Row="2"
+               Text="Solicitudes de recojo"
+                FontAttributes="Bold"
+                FontSize="18"
+               TextColor="Black"
+                Margin="16,0,0,0"
+               VerticalOptions="Center"/>
+        <Frame Grid.Row="3"
+               CornerRadius="20"
+               Margin="15,0,15,0"
+               HasShadow="False"
+               >
+            <CollectionView ItemsSource="{Binding ListasolRecojo}"
+                            x:Name="Listasolicitudes">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                                     Span="1"
+                                     VerticalItemSpacing="20"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Idsolicitud}"
+                                       VerticalOptions="Center"/>
+                                <Button Text="Asignar"
+                                        CornerRadius="15"
+                                        FontAttributes="Bold"
+                                        Command="{Binding Source={x:Reference Listasolicitudes}
+                                        ,Path=BindingContext.NavegarAsignacionescomamd}"
+                                        CommandParameter="{Binding .}"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Frame>
+    </Grid>
+</ContentPage>

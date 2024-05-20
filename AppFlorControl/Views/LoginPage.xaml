@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppFlorControl.Views.LoginPage"
+             
+             Shell.NavBarIsVisible="False">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="White" Offset="0.1"/>
+                <GradientStop Color="White" Offset="1.0"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackLayout VerticalOptions="Center">
+            <Image Source="https://i.ibb.co/kBVz0Rj/luz.png"/>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+
+                <Label Text="Eccobank"
+                       FontSize="50"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Image Source="https://i.ibb.co/sQThnwX/correo-electronico.png" HeightRequest="22"/>
+                <Entry Placeholder="Correo"
+                       HorizontalOptions="Start"
+                       WidthRequest="240"
+                       
+                       FontAttributes="Bold"
+                       Text="{Binding Txtcorreo}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Image Source="https://i.ibb.co/vknQQYz/candado.png" HeightRequest="22"/>
+                <Entry Placeholder="Contraseña"
+                       HorizontalOptions="Start"
+                       WidthRequest="240"
+                       
+                       FontAttributes="Bold"
+                       IsPassword="True"
+                       Text="{Binding Txtpass}"/>
+            </StackLayout>
+            <Button Text="Acceder"
+                    FontSize="20"
+                    CornerRadius="20"
+                    FontAttributes="Bold"
+                    BackgroundColor="#82FCC1"
+                    TextTransform="None"
+                    HorizontalOptions="Center"
+                    Margin="0,15,0,0"
+                    Command="{Binding Logincommand}"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
