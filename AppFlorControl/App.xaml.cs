@@ -1,4 +1,4 @@
-﻿using AppFlorControl.Services;
+﻿
 using AppFlorControl.Views;
 using System;
 using Xamarin.Forms;
@@ -13,9 +13,9 @@ namespace AppFlorControl
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new LoginPage());
-            //MainPage = new NavigationPage(new Menuprincipal());
+            
+            //MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new Menuprincipal());
         }
 
         protected override void OnStart()

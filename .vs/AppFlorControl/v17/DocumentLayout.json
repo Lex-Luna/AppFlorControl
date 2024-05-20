@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\viewmodels\\vmtecnicoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\viewmodels\\vmtecnicoconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\tecnicoconfig.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\tecnicoconfig.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\viewmodels\\vmmenuconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\viewmodels\\vmmenuconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\menuconfig.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\menuconfig.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\tecnicoconfig.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\tecnicoconfig.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\menuconfig.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\menuconfig.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\menuprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\menuprincipal.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 298,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VMTecnicoConfig.cs",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\ViewModels\\VMTecnicoConfig.cs",
+              "RelativeDocumentMoniker": "AppFlorControl\\ViewModels\\VMTecnicoConfig.cs",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\ViewModels\\VMTecnicoConfig.cs",
+              "RelativeToolTip": "AppFlorControl\\ViewModels\\VMTecnicoConfig.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAvwFoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T14:36:53.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuConfig.xaml",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\MenuConfig.xaml",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\MenuConfig.xaml",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\MenuConfig.xaml",
+              "RelativeToolTip": "AppFlorControl\\Views\\MenuConfig.xaml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAC4AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T06:31:36.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tecnicoConfig.xaml.cs",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\tecnicoConfig.xaml.cs",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\tecnicoConfig.xaml.cs",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\tecnicoConfig.xaml.cs",
+              "RelativeToolTip": "AppFlorControl\\Views\\tecnicoConfig.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAtwBIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:30:11.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuConfig.xaml.cs",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\MenuConfig.xaml.cs",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\MenuConfig.xaml.cs",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\MenuConfig.xaml.cs",
+              "RelativeToolTip": "AppFlorControl\\Views\\MenuConfig.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:28:41.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VMMenuConfig.cs",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\ViewModels\\VMMenuConfig.cs",
+              "RelativeDocumentMoniker": "AppFlorControl\\ViewModels\\VMMenuConfig.cs",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\ViewModels\\VMMenuConfig.cs",
+              "RelativeToolTip": "AppFlorControl\\ViewModels\\VMMenuConfig.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAhwCcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T06:28:33.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menuprincipal.xaml",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\Menuprincipal.xaml",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\Menuprincipal.xaml",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\Menuprincipal.xaml",
+              "RelativeToolTip": "AppFlorControl\\Views\\Menuprincipal.xaml",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAEwE8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T06:27:24.543Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "6226222b-7fd5-4ec9-b015-1b5aac3044c0",
+        "Display": 1,
+        "X": 230,
+        "Y": 218,
+        "Width": 1052,
+        "Height": 508,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "tecnicoConfig.xaml",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\tecnicoConfig.xaml",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\tecnicoConfig.xaml",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\tecnicoConfig.xaml",
+              "RelativeToolTip": "AppFlorControl\\Views\\tecnicoConfig.xaml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T06:29:42.981Z",
+              "EditorCaption": ""
             }
           ]
         }

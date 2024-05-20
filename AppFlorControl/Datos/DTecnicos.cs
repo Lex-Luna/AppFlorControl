@@ -27,7 +27,9 @@ namespace AppFlorControl.Datos
                    Nombre = tecnicoRequest.Nombre,
                    Apellido = tecnicoRequest.Apellido,
                    Correo = tecnicoRequest.Correo,
-                   Contraseña= tecnicoRequest.Contraseña,
+                   Cedula = tecnicoRequest.Cedula,
+                   Estado= tecnicoRequest.Estado,
+                   Contraseña= tecnicoRequest.Contraseña
                    
                   
                });
