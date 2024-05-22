@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Firebase.Database.Query;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace AppFlorControl.Datos
 {
@@ -44,174 +45,37 @@ namespace AppFlorControl.Datos
 
         }
         #endregion
-        /*#region Actualizar
-        public async Task AddNumEncuesta(UsuarioM p)
+        
+        #region Buscar
+        public async Task<List<MTecnico>> MostrarTecnico()
         {
-            var obtenerData = (await Conexiones.Constantes.firebase
-                .Child("Usuario")
-                .OnceAsync<UsuarioM>()).Where(a => a.Object.Correo == p.Correo)
-                .FirstOrDefault();
-
-            var usuario = obtenerData.Object;
-            usuario.NumEncuesta++;
-
-            await Conexiones.Constantes.firebase
-               .Child("Usuario")
-               .Child(obtenerData.Key)
-               .PutAsync(usuario);
-        }
-        public async Task AddNumVaneoEncuesta(UsuarioM p)
-        {
-            try
-            {
-
-
-                var obtenerData = (await Conexiones.Constantes.firebase
-                    .Child("Usuario")
-                    .OnceAsync<UsuarioM>()).Where(a => a.Key == p.IdUsuario)
-                    .FirstOrDefault();
-
-                var usuario = obtenerData.Object;
-                usuario.EncuestasEliminadas++;
-
-                await Conexiones.Constantes.firebase
-                   .Child("Usuario")
-                   .Child(obtenerData.Key)
-                   .PutAsync(usuario);
-            }
-            catch (Exception e)
-            {
-
-                throw e;
-            }
-        }
-        public async Task UsuarioVaneado(UsuarioM p)
-        {
-            try
-            {
-
-
-
-                var obtenerData = (await Conexiones.Constantes.firebase
-                    .Child("Usuario")
-                    .OnceAsync<UsuarioM>()).Where(a => a.Key == p.IdUsuario)
-                    .FirstOrDefault();
-
-                var usuario = obtenerData.Object;
-                usuario.Estado = false;
-
-                await Conexiones.Constantes.firebase
-                   .Child("Usuario")
-                   .Child(obtenerData.Key)
-                   .PutAsync(usuario);
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-        }
-        public async Task EncuestaVaneada(UsuarioM p)
-        {
-            try
-            {
-                var obtenerData = (await Conexiones.Constantes.firebase
-                    .Child("Usuario")
-                    .OnceAsync<UsuarioM>()).Where(a => a.Key == p.IdUsuario)
-                    .FirstOrDefault();
-
-                if (obtenerData != null)
+            return (await Conexiones.firebase
+                .Child("Tecnico")
+                .OnceAsync<MTecnico>())
+                .Select(item => new MTecnico
                 {
-                    var encuesta = obtenerData.Object;
-                    encuesta.Estado = false;
-
-                    await Conexiones.Constantes.firebase
-                       .Child("Usuario")
-                       .Child(obtenerData.Key)
-                       .PutAsync(encuesta);
-                }
-
-            }
-            catch (Exception e)
-            {
-
-                throw e;
-            }
-
-        }
-
-        #endregion
-        #region Mostrar
-        public async Task<List<UsuarioM>> MostUsuario()
-        {
-            return (await Constantes.firebase
-                .Child("Usuario")
-                .OnceAsync<UsuarioM>()).Select(item => new UsuarioM
-                {
-                    IdUsuario = item.Key,
-                    Admin = item.Object.Admin,
-                    Apellido = item.Object.Apellido,
-                    Contrasenia = item.Object.Contrasenia,
-                    FotoUsuario = item.Object.FotoUsuario,
-                    Correo = item.Object.Correo,
-                    Estado = item.Object.Estado,
-                    IdAdministrador = item.Object.IdAdministrador,
                     Nombre = item.Object.Nombre,
-                    NumEncuesta = item.Object.NumEncuesta,
-                    EncuestasEliminadas = item.Object.EncuestasEliminadas
-
+                    Apellido = item.Object.Apellido,
+                    Cedula= item.Object.Cedula,
+                    Id = item.Key
                 }).ToList();
         }
-        public async Task<List<UsuarioM>> MostUsuarioXcorreo(UsuarioM p)
+        public async Task<List<MTecnico>> BuscarTecnico(MTecnico parametrosPedir)
         {
-            return (await Constantes.firebase
-                .Child("Usuario")
-                .OnceAsync<UsuarioM>())
-                .Where(a => a.Object.Correo == p.Correo && a.Object.Estado == true)
-                .Select(item => new UsuarioM
+            return (await Conexiones.firebase
+                .Child("Tecnico")
+                .OrderByKey()
+                .OnceAsync<MTecnico>())
+                .Where(a => a.Object.Nombre == parametrosPedir.Nombre)
+                .Where(b => b.Object.Estado == true)
+                .Select(item => new MTecnico
                 {
-                    IdUsuario = item.Key,
-                    Admin = item.Object.Admin,
-                    FotoUsuario = item.Object.FotoUsuario,
-                    Apellido = item.Object.Apellido,
-                    Contrasenia = item.Object.Contrasenia,
-                    Correo = item.Object.Correo,
-                    Estado = item.Object.Estado,
-                    IdAdministrador = item.Object.IdAdministrador,
-                    Nombre = item.Object.Nombre,
-                    NumEncuesta = item.Object.NumEncuesta
-
+                    Id = item.Key,
+                    Nombre = item.Object.Nombre
                 }).ToList();
         }
 
-
-        public async Task<List<UsuarioM>> MostUsuarioXId(string p)
-        {
-            var usuario = await Constantes.firebase
-                .Child("Usuario")
-                .Child(p)
-                .OnceSingleAsync<UsuarioM>();
-            return new List<UsuarioM> { usuario };
-        }
-
         #endregion
-
-
-        #region Multimedia
-
-        public async Task<string> SubirFotoUser(Stream imagen, string nombreUsuario)
-        {
-
-            var storageImagen = await new FirebaseStorage("huecasapp-d8da1.appspot.com")
-                .Child("Usuarios")
-                .Child(nombreUsuario + ".jpg")
-                .PutAsync(imagen);
-            rutafoto = storageImagen;
-            return rutafoto;
-        }
-
-        #endregion    */
-
 
 
     }

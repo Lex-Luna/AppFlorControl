@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppFlorControl.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace AppFlorControl.Views
         public Asignaciones()
         {
             InitializeComponent();
+            BindingContext = new VMAsignaciones(Navigation);
         }
     }
 }

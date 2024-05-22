@@ -20,31 +20,34 @@
                      HorizontalOptions="Start"
                      Margin="10,30,0,0"
                      Command="{Binding Volvercomamd}"/>
-        <ScrollView>
-            <StackLayout Margin="10,60,10,0">
-                <SearchBar Text="{Binding Txtidentificacion}"
-                           SearchCommand="{Binding Buscarcommand}"/>
-                <StackLayout Orientation="Horizontal">
-                    <Label Text="Recolector:"
-                       FontSize="18"
-                       FontAttributes="Bold"
-                       VerticalOptions="Center"/>
-                    <Label Text="{Binding TxtnombreRecolector}"
-                       FontSize="18"
-                       FontAttributes="Bold"
-                       VerticalOptions="Center"/>
+        <CollectionView ItemsSource="{Binding LisTecnico}"
+                x:Name="listaTecnico">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                         Span="1"
+                         VerticalItemSpacing="20"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Nombre}"
+                           TextColor="Black"
+                           VerticalOptions="Center"/>
+                            <Label Text="{Binding Id}"
+                                    TextColor="Black"
+                                    VerticalOptions="Center"/>
 
-                </StackLayout>
-                <Button Text="Asignar"
-                    TextTransform="None"
-                    HorizontalOptions="Center"
-                    CornerRadius="15"
-                    FontSize="20"
-                    FontAttributes="Bold"
-                    BackgroundColor="White"
-                    Margin="0,20,0,0"
-                    Command="{Binding Insertarcomamd}"/>
-            </StackLayout>
-        </ScrollView>
+                            <Button Text="Asignar"
+                            CornerRadius="15"
+                            FontAttributes="Bold"
+                            Command="{Binding Source={x:Reference listaTecnico}
+                            ,Path=BindingContext.Insertarcomamd}"
+                            CommandParameter="{Binding .}"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
     </Grid>
 </ContentPage>

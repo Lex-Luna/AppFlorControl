@@ -69,7 +69,7 @@
                                     x:Name="btnconfig"
                                     />
                     </Frame>
-                    <Label Text="CONFIGURAR"
+                    <Label Text="Agregar"
                            HorizontalOptions="Center"
                            TextColor="Black"
                            FontSize="12"
@@ -100,7 +100,7 @@
             </Grid>
         </Frame>
         <Label Grid.Row="2"
-               Text="Solicitudes de recojo"
+               Text="Solicitudes de Fincas"
                 FontAttributes="Bold"
                 FontSize="18"
                TextColor="Black"
@@ -111,7 +111,7 @@
                Margin="15,0,15,0"
                HasShadow="False"
                >
-            <CollectionView ItemsSource="{Binding ListasolRecojo}"
+            <CollectionView ItemsSource="{Binding ListaSolFinca}"
                             x:Name="Listasolicitudes">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical"
@@ -122,7 +122,8 @@
                     <DataTemplate>
                         <Frame>
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding Idsolicitud}"
+                                <Label Text="{Binding Nombre}"
+                                       TextColor="Black"
                                        VerticalOptions="Center"/>
                                 <Button Text="Asignar"
                                         CornerRadius="15"

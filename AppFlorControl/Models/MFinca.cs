@@ -10,5 +10,6 @@ namespace AppFlorControl.Models
         public string Nombre { get; set; }
         public string Sector { get; set; }
         public string Tamaño { get; set; }
+        public bool Solicitud{ get; set; }
     }
 }

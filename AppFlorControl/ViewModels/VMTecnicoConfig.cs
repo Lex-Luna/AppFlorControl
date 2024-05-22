@@ -11,7 +11,7 @@ using Xamarin.Forms;
 
 namespace AppFlorControl.ViewModels
 {
-    internal class VMTecnicoConfig : BaseViewModel
+    public class VMTecnicoConfig : BaseViewModel
     {
         #region VARIABLES
         string txtnombre;

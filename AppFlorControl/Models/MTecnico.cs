@@ -7,6 +7,7 @@ namespace AppFlorControl.Models
     public class MTecnico
     {
         
+        public string Id { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string Correo { get; set; }

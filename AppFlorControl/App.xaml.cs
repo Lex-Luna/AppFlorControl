@@ -16,6 +16,8 @@ namespace AppFlorControl
             
             //MainPage = new NavigationPage(new LoginPage());
             MainPage = new NavigationPage(new Menuprincipal());
+            //MainPage = new NavigationPage(new Asignaciones());
+
         }
 
         protected override void OnStart()

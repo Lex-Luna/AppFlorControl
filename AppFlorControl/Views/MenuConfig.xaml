@@ -72,7 +72,7 @@
                                />
                         </StackLayout>
                         <Frame.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding NavegarProductosconfigcomamd}"/>
+                            <TapGestureRecognizer Command="{Binding NavegarFincacomamd}"/>
                         </Frame.GestureRecognizers>
                     </Frame>
 

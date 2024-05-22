@@ -1,4 +1,6 @@
-﻿using AppFlorControl.Views;
+﻿using AppFlorControl.Datos;
+using AppFlorControl.Models;
+using AppFlorControl.Views;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,29 +13,29 @@ namespace AppFlorControl.ViewModels
     public class VMMenuPrincipal : BaseViewModel
     {
         #region VARIABLES
-        string identificacion;
-        //List<Msolicitudesrecojo> listasolRecojo;
+        string nomTecnico;
+        List<MFinca> listaSolFinca;
         #endregion
         #region CONSTRUCTOR
         public VMMenuPrincipal(INavigation navigation)
         {
             Navigation = navigation;
             Navegarmenuconfigcomamd = new Command(async () => await NavegarMenuconfig());
-            //NavegarAsignacionescomamd = new Command<Msolicitudesrecojo>(async (f) => await NavegarAsignaciones(f));
+            NavegarAsignacionescomamd = new Command<MFinca>(async (idFinca) => await NavegarAsignaciones(idFinca));
 
-            //Mostrarsolicitudesrecojo();
+            MostrarSolicitudFinca();
         }
         #endregion
         #region OBJETOS 
-        /*public List<Msolicitudesrecojo> ListasolRecojo
+        public List<MFinca> ListaSolFinca
         {
-            get { return listasolRecojo; }
-            set { SetValue(ref listasolRecojo, value); }
-        }*/
-        public string Identificacion
+            get { return listaSolFinca; }
+            set { SetValue(ref listaSolFinca, value); }
+        }
+        public string NomTecnico
         {
-            get { return identificacion; }
-            set { SetValue(ref identificacion, value); }
+            get { return nomTecnico; }
+            set { SetValue(ref nomTecnico, value); }
         }
 
         #endregion
@@ -42,18 +44,20 @@ namespace AppFlorControl.ViewModels
         {
             await Navigation.PushAsync(new MenuConfig());
         }
-        /*private async Task Mostrarsolicitudesrecojo()
+        private async Task MostrarSolicitudFinca()
         {
 
-            var funcion = new Dsolicitudesrecojo();
-            ListasolRecojo = await funcion.Mostrarsolicitudesrecojo();
+            var funcion = new DFinca();
+            ListaSolFinca = await funcion.MostrarSolicitud();
         }
-        private async Task NavegarAsignaciones(Msolicitudesrecojo parametros)
+        private async Task NavegarAsignaciones(MFinca parametros)
         {
-            string Idsolicitud = parametros.Idsolicitud;
-            VMasignaciones.idsolicitud = Idsolicitud;
+            //Iguala el id de Asignaciones con el de MFInca
+            //para enviar idFinca a Asignaciones
+            string IdFinca= parametros.Id;
+            VMAsignaciones.idFinca = IdFinca;
             await Navigation.PushAsync(new Asignaciones());
-        }*/
+        }
         #endregion
         #region COMANDOS
         public Command Navegarmenuconfigcomamd { get; }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppFlorControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c83253d7bd65029e767fb165e173485c5f10d2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d40cb4e0cd65f70383cdd56d47cb89d5917ad1e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppFlorControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppFlorControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

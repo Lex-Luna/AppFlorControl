@@ -16,12 +16,14 @@ namespace AppFlorControl.Datos
                 .Child("Asignaciones")
                 .PostAsync(new MAsignaciones()
                 {
-                    IdSolicitud = asignacionesRequest.IdSolicitud,
                     Estado = asignacionesRequest.Estado,
                     IdTecnico = asignacionesRequest.IdTecnico,
-                    IdControlcalidad= asignacionesRequest.IdControlcalidad
+                    IdFinca= asignacionesRequest.IdFinca,
+                    Id= asignacionesRequest.Id
                 });
             return true;
         }
+        
     }
+
 }

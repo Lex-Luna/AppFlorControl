@@ -18,7 +18,7 @@ namespace AppFlorControl.ViewModels
             Navigation = navigation;
             Volvercomamd = new Command(async () => await Volver());
             NavegarTecnicocomamd = new Command(async () => await NavegarTecnico());
-            NavegarProductosconfigcomamd = new Command(async () => await Navegarproductosconfig());
+            NavegarFincacomamd = new Command(async () => await NavegarFinca());
 
         }
         #endregion
@@ -39,15 +39,15 @@ namespace AppFlorControl.ViewModels
         {
             await Navigation.PushAsync(new tecnicoConfig());
         }
-        private async Task Navegarproductosconfig()
+        private async Task NavegarFinca()
         {
-            //await Navigation.PushAsync(new Productosconfig());
+            await Navigation.PushAsync(new FincaConfig());
         }
         #endregion
         #region COMANDOS
         public Command Volvercomamd { get; }
         public Command NavegarTecnicocomamd { get; }
-        public Command NavegarProductosconfigcomamd { get; }
+        public Command NavegarFincacomamd { get; }
         #endregion
     }
 }
