@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\viewmodels\\vmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\viewmodels\\vmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\datos\\dcuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\datos\\dcuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\datos\\dtecnicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\datos\\dtecnicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\tecnicomenu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\tecnicomenu.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\views\\tecnicomenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\views\\tecnicomenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\datos\\dasignaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\models\\masignaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\models\\masignaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|c:\\programasvisual\\curso de sistema venta core\\appflorcontrol\\appflorcontrol\\datos\\dtecnicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CEFAE51-8BC9-4302-97B1-164500DB5EFB}|AppFlorControl\\AppFlorControl.csproj|solutionrelative:appflorcontrol\\datos\\dtecnicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 298,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +58,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "AppFlorControl\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T10:01:19.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\LoginPage.xaml",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\LoginPage.xaml*",
+              "RelativeToolTip": "AppFlorControl\\Views\\LoginPage.xaml*",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T09:51:24.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AppFlorControl\\App.xaml.cs",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\App.xaml.cs",
+              "RelativeToolTip": "AppFlorControl\\App.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:49:49.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TecnicoMenu.xaml",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\TecnicoMenu.xaml",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\TecnicoMenu.xaml",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\TecnicoMenu.xaml",
+              "RelativeToolTip": "AppFlorControl\\Views\\TecnicoMenu.xaml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T09:41:58.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TecnicoMenu.xaml.cs",
+              "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\TecnicoMenu.xaml.cs",
+              "RelativeDocumentMoniker": "AppFlorControl\\Views\\TecnicoMenu.xaml.cs",
+              "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Views\\TecnicoMenu.xaml.cs",
+              "RelativeToolTip": "AppFlorControl\\Views\\TecnicoMenu.xaml.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAWwKkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T09:23:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "VMLogin.cs",
               "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\ViewModels\\VMLogin.cs",
               "RelativeDocumentMoniker": "AppFlorControl\\ViewModels\\VMLogin.cs",
               "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\ViewModels\\VMLogin.cs",
               "RelativeToolTip": "AppFlorControl\\ViewModels\\VMLogin.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAwwAAAAAAAAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAASwD4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T09:17:29.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "DTecnicos.cs",
               "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Datos\\DTecnicos.cs",
               "RelativeDocumentMoniker": "AppFlorControl\\Datos\\DTecnicos.cs",
@@ -64,40 +149,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DCuenta.cs",
               "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Datos\\DCuenta.cs",
               "RelativeDocumentMoniker": "AppFlorControl\\Datos\\DCuenta.cs",
               "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Datos\\DCuenta.cs",
               "RelativeToolTip": "AppFlorControl\\Datos\\DCuenta.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAgwFEAAAAEAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAASwCgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T07:58:03.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MAsignaciones.cs",
               "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Models\\MAsignaciones.cs",
               "RelativeDocumentMoniker": "AppFlorControl\\Models\\MAsignaciones.cs",
               "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Models\\MAsignaciones.cs",
               "RelativeToolTip": "AppFlorControl\\Models\\MAsignaciones.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA0wBAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAawAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:09:33.012Z"
+              "WhenOpened": "2024-05-23T06:09:33.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DAsignaciones.cs",
               "DocumentMoniker": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Datos\\DAsignaciones.cs",
               "RelativeDocumentMoniker": "AppFlorControl\\Datos\\DAsignaciones.cs",
               "ToolTip": "C:\\ProgramasVisual\\Curso de sistema Venta Core\\AppFlorControl\\AppFlorControl\\Datos\\DAsignaciones.cs",
               "RelativeToolTip": "AppFlorControl\\Datos\\DAsignaciones.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAswCUAAAAxAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwBwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T06:11:12.552Z"
+              "WhenOpened": "2024-05-23T06:11:12.552Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -7,19 +7,19 @@
              x:Class="AppFlorControl.Views.LoginPage"
              
              Shell.NavBarIsVisible="False">
-    <Grid>
-        <Grid.Background>
+    <Grid BackgroundColor="Black">
+        <!--Grid.Background>
             <LinearGradientBrush>
                 <GradientStop Color="White" Offset="0.1"/>
                 <GradientStop Color="White" Offset="1.0"/>
             </LinearGradientBrush>
-        </Grid.Background>
-        <StackLayout VerticalOptions="Center">
+        </Grid.Background-->
+        <StackLayout VerticalOptions="Center" >
             <Image Source="https://i.ibb.co/kBVz0Rj/luz.png"/>
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center">
 
-                <Label Text="Eccobank"
+                <Label Text="FLor Control"
                        FontSize="50"
                        VerticalOptions="Center"
                        HorizontalOptions="Center"
@@ -33,7 +33,7 @@
                        WidthRequest="240"
                        
                        FontAttributes="Bold"
-                       Text="{Binding Txtcorreo}"/>
+                       Text="{Binding Correo}"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal"
                          HorizontalOptions="Center">
@@ -44,7 +44,7 @@
                        
                        FontAttributes="Bold"
                        IsPassword="True"
-                       Text="{Binding Txtpass}"/>
+                       Text="{Binding Contraseña}"/>
             </StackLayout>
             <Button Text="Acceder"
                     FontSize="20"
@@ -54,7 +54,7 @@
                     TextTransform="None"
                     HorizontalOptions="Center"
                     Margin="0,15,0,0"
-                    Command="{Binding Logincommand}"/>
+                    Command="{Binding btnIniciarcomamd}"/>
         </StackLayout>
     </Grid>
 </ContentPage>

@@ -15,7 +15,7 @@ namespace AppFlorControl.Views
         public LoginPage()
         {
             InitializeComponent();
-            //this.BindingContext = new LoginViewModel();
+            BindingContext = new VMLogin(Navigation);
         }
     }
 }

@@ -14,8 +14,8 @@ namespace AppFlorControl
             InitializeComponent();
 
             
-            //MainPage = new NavigationPage(new LoginPage());
-            MainPage = new NavigationPage(new Menuprincipal());
+            MainPage = new NavigationPage(new LoginPage());
+            //MainPage = new NavigationPage(new Menuprincipal());
             //MainPage = new NavigationPage(new Asignaciones());
 
         }

@@ -17,7 +17,7 @@ namespace AppFlorControl.ViewModels
         public VMLogin(INavigation navigation)
         {
             Navigation = navigation;
-            
+
 
         }
         #endregion
@@ -56,8 +56,8 @@ namespace AppFlorControl.ViewModels
 
         #region PROCESOS
 
-        
-        
+
+
 
 
         public async Task ValidarDatos()
@@ -102,7 +102,7 @@ namespace AppFlorControl.ViewModels
 
         }
 
-        
+
         #endregion
         #region COMANDOS
 

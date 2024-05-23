@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppFlorControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4105c23e5e2813fd2e076deb30604d3e799a6a88")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+127d0940641c0c27f1b370be6d004370c7a0da2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppFlorControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppFlorControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
