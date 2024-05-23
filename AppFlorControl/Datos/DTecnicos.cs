@@ -45,8 +45,28 @@ namespace AppFlorControl.Datos
 
         }
         #endregion
-        
+
         #region Buscar
+        public async Task<List<MTecnico>> MostTecnicoXcorreo(MTecnico tec)
+        {
+            return (await Conexiones.firebase
+                .Child("Tecnico")
+                .OnceAsync<MTecnico>())
+                .Where(a => a.Object.Correo == tec.Correo && a.Object.Estado == true)
+                .Select(item => new MTecnico
+                {
+                    Id = item.Key,
+                    EsAdmin = item.Object.EsAdmin,
+                    Apellido = item.Object.Apellido,
+                    Contraseña = item.Object.Contraseña,
+                    Correo = item.Object.Correo,
+                    Estado = item.Object.Estado,
+                    Nombre = item.Object.Nombre,
+                    Cedula = item.Object.Cedula
+
+                }).ToList();
+        }
+
         public async Task<List<MTecnico>> MostrarTecnico()
         {
             return (await Conexiones.firebase
