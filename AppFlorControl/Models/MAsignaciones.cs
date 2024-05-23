@@ -10,6 +10,7 @@ namespace AppFlorControl.Models
         public string Estado { get; set; }
         public string IdTecnico { get; set; }
         public string IdFinca { get; set; }
+        public string NombreFinca { get; set; }
     
     }
 }

@@ -20,3 +20,4 @@ C:\ProgramasVisual\Curso de sistema Venta Core\AppFlorControl\AppFlorControl\obj
 C:\ProgramasVisual\Curso de sistema Venta Core\AppFlorControl\AppFlorControl\obj\Debug\netstandard2.0\refint\AppFlorControl.dll
 C:\ProgramasVisual\Curso de sistema Venta Core\AppFlorControl\AppFlorControl\obj\Debug\netstandard2.0\AppFlorControl.pdb
 C:\ProgramasVisual\Curso de sistema Venta Core\AppFlorControl\AppFlorControl\obj\Debug\netstandard2.0\Views\FincaConfig.xaml.g.cs
+C:\ProgramasVisual\Curso de sistema Venta Core\AppFlorControl\AppFlorControl\obj\Debug\netstandard2.0\Views\TecnicoMenu.xaml.g.cs

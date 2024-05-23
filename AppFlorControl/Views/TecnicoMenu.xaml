@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFlorControl.Views.TecnicoMenu">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#D6F4E7"
+                                           
+                   Offset="0.1" />
+                    <GradientStop Color="#11ffbd"
+                   Offset="1.0" />
+                </LinearGradientBrush>
+
+            </Grid.Background>
+            <ImageButton BackgroundColor="Transparent"
+              Source="flecha.png"
+              WidthRequest="30"
+              VerticalOptions="Start"
+              HorizontalOptions="Start"
+              Margin="10,30,0,0"
+              Command="{Binding Volvercomamd}"/>
+
+            <CollectionView ItemsSource="{Binding LisAsig}"
+            x:Name="LisUserAsig">
+
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical"
+                     Span="1"
+                     VerticalItemSpacing="20"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <ScrollView>
+                            <Frame>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Id}"
+                       TextColor="Black" 
+                       VerticalOptions="Center"/>
+                                    <Button Text="Control Calidad"
+                        CornerRadius="15"
+                        FontAttributes="Bold"
+                        Command="{Binding Source={x:Reference LisUserAsig}
+                        ,Path=BindingContext.NavegarAsignacionescomamd}"
+                        CommandParameter="{Binding .}"/>
+                                </StackLayout>
+                            </Frame>
+                        </ScrollView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
